@@ -93,6 +93,17 @@ Please follow these guidelines when submitting Issues:
 * Click `New issue`. Provide as many details as possible to help reviewers and other contributors understand your proposal.
 * Add your text, and click `Submit new issue`.
 
+### Backporting
+
+Backporting features into a release branch will sometimes be necessary. The ECS team will provide guidance and direction if backporting is
+required. Refer to the [backport tool's docs](https://github.com/sqren/backport#backport) for the install and setup directions. A `.backportrc.json`
+config file is located at the root of ECS repo.
+
+To specify a pull request to backport:
+
+```bash
+$ npx backport --pr 12345
+```
 
 ## Documentation
 
