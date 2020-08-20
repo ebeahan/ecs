@@ -30,6 +30,8 @@ Thanks, you're awesome :-) -->
 
 #### Improvements
 
+* Field details Jinja2 template components have been consolidated into one template #897
+
 #### Deprecated
 
 
