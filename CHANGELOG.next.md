@@ -16,6 +16,8 @@ Thanks, you're awesome :-) -->
 
 #### Added
 
+* Added Mime Type fields to HTTP request and response. #944
+
 #### Improvements
 
 #### Deprecated
