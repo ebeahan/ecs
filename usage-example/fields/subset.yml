@@ -22,8 +22,10 @@ fields:
     fields: "*"
   user: # mapping url.username to user.name
     fields:
-      "name": {}
-
+      name: {}
+      target:
+          fields:
+            name: {}
   # Network fields to capture IPs, geo and stuff
   network:
     fields: "*"
