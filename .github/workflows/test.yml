@@ -17,6 +17,7 @@ jobs:
           xsltproc
     - name: Checkout code
       uses: actions/checkout@v2
+    - name: Fetch tags
       run: |
         git fetch --tags --all
     - name: Setup
