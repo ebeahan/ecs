@@ -10,8 +10,8 @@ jobs:
         go-version: 1.13.x
     - name: Install dependencies
       run: |
-        apt-get update &&
-        apt-get install \
+        sudo apt-get update &&
+        sudo apt-get install \
           libxml2-utils \
           python3-venv \
           xsltproc
