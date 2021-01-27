@@ -15,9 +15,8 @@ jobs:
         python-version: '3.x'
     - name: Checkout code
       uses: actions/checkout@v2
-    - name: Fetch tags
-      run: |
-        git fetch --prune --unshallow --tags
+      with:
+        fetch-depth: 0
     - name: Setup
       run: make setup
     - name: Test
