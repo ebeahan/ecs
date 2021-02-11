@@ -57,3 +57,19 @@
         This is useful for logging cryptographic errors with the certificate validity or trust status.
         Leave unpopulated if the validity or trust of the certificate was unchecked.
       example: ERROR_UNTRUSTED_ROOT
+
+    - name: team_id
+      level: extended
+      type: keyword
+      short: Team identifier of the code signer.
+      example: YH9SZ5LKR4
+      description: >
+        The team identifier is a 10-character alphanumeric string associated with a specific vendor.
+
+    - name: signing_id
+      level: extended
+      type: keyword
+      short: An application identifier
+      example: come.apple.calculator
+      description: >
+        An application identifier of a signed binary.
