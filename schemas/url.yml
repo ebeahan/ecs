@@ -186,12 +186,14 @@
       type: keyword
       description: >
         Username of the request.
+      example: myusername
 
     - name: password
       level: extended
       type: keyword
       description: >
         Password of the request.
+      example: mypassword
 
     - name: user_info
       level: extended
@@ -199,3 +201,4 @@
       description: >
         Username and optional schema-specific information about how to gain
         authorization to access the server (per RFC 2396).
+      example: myusername:mypassword

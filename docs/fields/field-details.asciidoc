@@ -12197,7 +12197,7 @@ type: keyword
 
 
 
-
+example: `mypassword`
 
 | extended
 
@@ -12337,7 +12337,7 @@ type: keyword
 
 
 
-
+example: `myusername:mypassword`
 
 | extended
 
@@ -12353,7 +12353,7 @@ type: keyword
 
 
 
-
+example: `myusername`
 
 | extended
 

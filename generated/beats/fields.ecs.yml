@@ -10980,6 +10980,7 @@
       type: keyword
       ignore_above: 1024
       description: Password of the request.
+      example: mypassword
       default_field: false
     - name: enrichments.indicator.url.path
       level: extended
@@ -11060,12 +11061,14 @@
       ignore_above: 1024
       description: Username and optional schema-specific information about how to
         gain authorization to access the server (per RFC 2396).
+      example: myusername:mypassword
       default_field: false
     - name: enrichments.indicator.url.username
       level: extended
       type: keyword
       ignore_above: 1024
       description: Username of the request.
+      example: myusername
       default_field: false
     - name: enrichments.indicator.x509.alternative_names
       level: extended
@@ -12577,6 +12580,7 @@
       type: keyword
       ignore_above: 1024
       description: Password of the request.
+      example: mypassword
       default_field: false
     - name: indicator.url.path
       level: extended
@@ -12657,12 +12661,14 @@
       ignore_above: 1024
       description: Username and optional schema-specific information about how to
         gain authorization to access the server (per RFC 2396).
+      example: myusername:mypassword
       default_field: false
     - name: indicator.url.username
       level: extended
       type: keyword
       ignore_above: 1024
       description: Username of the request.
+      example: myusername
       default_field: false
     - name: indicator.x509.alternative_names
       level: extended
@@ -13657,6 +13663,7 @@
       type: keyword
       ignore_above: 1024
       description: Password of the request.
+      example: mypassword
     - name: path
       level: extended
       type: wildcard
@@ -13730,12 +13737,14 @@
       ignore_above: 1024
       description: Username and optional schema-specific information about how to
         gain authorization to access the server (per RFC 2396).
+      example: myusername:mypassword
       default_field: false
     - name: username
       level: extended
       type: keyword
       ignore_above: 1024
       description: Username of the request.
+      example: myusername
   - name: user
     title: User
     group: 2

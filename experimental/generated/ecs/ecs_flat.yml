@@ -16288,6 +16288,7 @@ threat.enrichments.indicator.url.original:
 threat.enrichments.indicator.url.password:
   dashed_name: threat-enrichments-indicator-url-password
   description: Password of the request.
+  example: mypassword
   flat_name: threat.enrichments.indicator.url.password
   ignore_above: 1024
   level: extended
@@ -16408,6 +16409,7 @@ threat.enrichments.indicator.url.user_info:
   dashed_name: threat-enrichments-indicator-url-user-info
   description: Username and optional schema-specific information about how to gain
     authorization to access the server (per RFC 2396).
+  example: myusername:mypassword
   flat_name: threat.enrichments.indicator.url.user_info
   ignore_above: 1024
   level: extended
@@ -16420,6 +16422,7 @@ threat.enrichments.indicator.url.user_info:
 threat.enrichments.indicator.url.username:
   dashed_name: threat-enrichments-indicator-url-username
   description: Username of the request.
+  example: myusername
   flat_name: threat.enrichments.indicator.url.username
   ignore_above: 1024
   level: extended
@@ -18986,6 +18989,7 @@ threat.indicator.url.original:
 threat.indicator.url.password:
   dashed_name: threat-indicator-url-password
   description: Password of the request.
+  example: mypassword
   flat_name: threat.indicator.url.password
   ignore_above: 1024
   level: extended
@@ -19106,6 +19110,7 @@ threat.indicator.url.user_info:
   dashed_name: threat-indicator-url-user-info
   description: Username and optional schema-specific information about how to gain
     authorization to access the server (per RFC 2396).
+  example: myusername:mypassword
   flat_name: threat.indicator.url.user_info
   ignore_above: 1024
   level: extended
@@ -19118,6 +19123,7 @@ threat.indicator.url.user_info:
 threat.indicator.url.username:
   dashed_name: threat-indicator-url-username
   description: Username of the request.
+  example: myusername
   flat_name: threat.indicator.url.username
   ignore_above: 1024
   level: extended
@@ -20747,6 +20753,7 @@ url.original:
 url.password:
   dashed_name: url-password
   description: Password of the request.
+  example: mypassword
   flat_name: url.password
   ignore_above: 1024
   level: extended
@@ -20859,6 +20866,7 @@ url.user_info:
   dashed_name: url-user-info
   description: Username and optional schema-specific information about how to gain
     authorization to access the server (per RFC 2396).
+  example: myusername:mypassword
   flat_name: url.user_info
   ignore_above: 1024
   level: extended
@@ -20870,6 +20878,7 @@ url.user_info:
 url.username:
   dashed_name: url-username
   description: Username of the request.
+  example: myusername
   flat_name: url.username
   ignore_above: 1024
   level: extended

@@ -1284,7 +1284,7 @@ ECS_Version,Indexed,Field_Set,Field,Type,Level,Normalization,Example,Description
 8.7.0-dev,true,threat,threat.enrichments.indicator.url.full.text,match_only_text,extended,,https://www.elastic.co:443/search?q=elasticsearch#top,Full unparsed URL.
 8.7.0-dev,true,threat,threat.enrichments.indicator.url.original,wildcard,extended,,https://www.elastic.co:443/search?q=elasticsearch#top or /search?q=elasticsearch,Unmodified original url as seen in the event source.
 8.7.0-dev,true,threat,threat.enrichments.indicator.url.original.text,match_only_text,extended,,https://www.elastic.co:443/search?q=elasticsearch#top or /search?q=elasticsearch,Unmodified original url as seen in the event source.
-8.7.0-dev,true,threat,threat.enrichments.indicator.url.password,keyword,extended,,,Password of the request.
+8.7.0-dev,true,threat,threat.enrichments.indicator.url.password,keyword,extended,,mypassword,Password of the request.
 8.7.0-dev,true,threat,threat.enrichments.indicator.url.path,wildcard,extended,,,"Path of the request, such as ""/search""."
 8.7.0-dev,true,threat,threat.enrichments.indicator.url.port,long,extended,,443,"Port of the request, such as 443."
 8.7.0-dev,true,threat,threat.enrichments.indicator.url.query,keyword,extended,,,Query string of the request.
@@ -1292,8 +1292,8 @@ ECS_Version,Indexed,Field_Set,Field,Type,Level,Normalization,Example,Description
 8.7.0-dev,true,threat,threat.enrichments.indicator.url.scheme,keyword,extended,,https,Scheme of the url.
 8.7.0-dev,true,threat,threat.enrichments.indicator.url.subdomain,keyword,extended,,east,The subdomain of the domain.
 8.7.0-dev,true,threat,threat.enrichments.indicator.url.top_level_domain,keyword,extended,,co.uk,"The effective top level domain (com, org, net, co.uk)."
-8.7.0-dev,true,threat,threat.enrichments.indicator.url.user_info,keyword,extended,,,Username and optional schema-specific information about how to gain authorization to access the server (per RFC 2396).
-8.7.0-dev,true,threat,threat.enrichments.indicator.url.username,keyword,extended,,,Username of the request.
+8.7.0-dev,true,threat,threat.enrichments.indicator.url.user_info,keyword,extended,,myusername:mypassword,Username and optional schema-specific information about how to gain authorization to access the server (per RFC 2396).
+8.7.0-dev,true,threat,threat.enrichments.indicator.url.username,keyword,extended,,myusername,Username of the request.
 8.7.0-dev,true,threat,threat.enrichments.indicator.x509.alternative_names,keyword,extended,array,*.elastic.co,List of subject alternative names (SAN).
 8.7.0-dev,true,threat,threat.enrichments.indicator.x509.issuer.common_name,keyword,extended,array,Example SHA2 High Assurance Server CA,List of common name (CN) of issuing certificate authority.
 8.7.0-dev,true,threat,threat.enrichments.indicator.x509.issuer.country,keyword,extended,array,US,List of country \(C) codes
@@ -1500,7 +1500,7 @@ ECS_Version,Indexed,Field_Set,Field,Type,Level,Normalization,Example,Description
 8.7.0-dev,true,threat,threat.indicator.url.full.text,match_only_text,extended,,https://www.elastic.co:443/search?q=elasticsearch#top,Full unparsed URL.
 8.7.0-dev,true,threat,threat.indicator.url.original,wildcard,extended,,https://www.elastic.co:443/search?q=elasticsearch#top or /search?q=elasticsearch,Unmodified original url as seen in the event source.
 8.7.0-dev,true,threat,threat.indicator.url.original.text,match_only_text,extended,,https://www.elastic.co:443/search?q=elasticsearch#top or /search?q=elasticsearch,Unmodified original url as seen in the event source.
-8.7.0-dev,true,threat,threat.indicator.url.password,keyword,extended,,,Password of the request.
+8.7.0-dev,true,threat,threat.indicator.url.password,keyword,extended,,mypassword,Password of the request.
 8.7.0-dev,true,threat,threat.indicator.url.path,wildcard,extended,,,"Path of the request, such as ""/search""."
 8.7.0-dev,true,threat,threat.indicator.url.port,long,extended,,443,"Port of the request, such as 443."
 8.7.0-dev,true,threat,threat.indicator.url.query,keyword,extended,,,Query string of the request.
@@ -1508,8 +1508,8 @@ ECS_Version,Indexed,Field_Set,Field,Type,Level,Normalization,Example,Description
 8.7.0-dev,true,threat,threat.indicator.url.scheme,keyword,extended,,https,Scheme of the url.
 8.7.0-dev,true,threat,threat.indicator.url.subdomain,keyword,extended,,east,The subdomain of the domain.
 8.7.0-dev,true,threat,threat.indicator.url.top_level_domain,keyword,extended,,co.uk,"The effective top level domain (com, org, net, co.uk)."
-8.7.0-dev,true,threat,threat.indicator.url.user_info,keyword,extended,,,Username and optional schema-specific information about how to gain authorization to access the server (per RFC 2396).
-8.7.0-dev,true,threat,threat.indicator.url.username,keyword,extended,,,Username of the request.
+8.7.0-dev,true,threat,threat.indicator.url.user_info,keyword,extended,,myusername:mypassword,Username and optional schema-specific information about how to gain authorization to access the server (per RFC 2396).
+8.7.0-dev,true,threat,threat.indicator.url.username,keyword,extended,,myusername,Username of the request.
 8.7.0-dev,true,threat,threat.indicator.x509.alternative_names,keyword,extended,array,*.elastic.co,List of subject alternative names (SAN).
 8.7.0-dev,true,threat,threat.indicator.x509.issuer.common_name,keyword,extended,array,Example SHA2 High Assurance Server CA,List of common name (CN) of issuing certificate authority.
 8.7.0-dev,true,threat,threat.indicator.x509.issuer.country,keyword,extended,array,US,List of country \(C) codes
@@ -1638,7 +1638,7 @@ ECS_Version,Indexed,Field_Set,Field,Type,Level,Normalization,Example,Description
 8.7.0-dev,true,url,url.full.text,match_only_text,extended,,https://www.elastic.co:443/search?q=elasticsearch#top,Full unparsed URL.
 8.7.0-dev,true,url,url.original,wildcard,extended,,https://www.elastic.co:443/search?q=elasticsearch#top or /search?q=elasticsearch,Unmodified original url as seen in the event source.
 8.7.0-dev,true,url,url.original.text,match_only_text,extended,,https://www.elastic.co:443/search?q=elasticsearch#top or /search?q=elasticsearch,Unmodified original url as seen in the event source.
-8.7.0-dev,true,url,url.password,keyword,extended,,,Password of the request.
+8.7.0-dev,true,url,url.password,keyword,extended,,mypassword,Password of the request.
 8.7.0-dev,true,url,url.path,wildcard,extended,,,"Path of the request, such as ""/search""."
 8.7.0-dev,true,url,url.port,long,extended,,443,"Port of the request, such as 443."
 8.7.0-dev,true,url,url.query,keyword,extended,,,Query string of the request.
@@ -1646,8 +1646,8 @@ ECS_Version,Indexed,Field_Set,Field,Type,Level,Normalization,Example,Description
 8.7.0-dev,true,url,url.scheme,keyword,extended,,https,Scheme of the url.
 8.7.0-dev,true,url,url.subdomain,keyword,extended,,east,The subdomain of the domain.
 8.7.0-dev,true,url,url.top_level_domain,keyword,extended,,co.uk,"The effective top level domain (com, org, net, co.uk)."
-8.7.0-dev,true,url,url.user_info,keyword,extended,,,Username and optional schema-specific information about how to gain authorization to access the server (per RFC 2396).
-8.7.0-dev,true,url,url.username,keyword,extended,,,Username of the request.
+8.7.0-dev,true,url,url.user_info,keyword,extended,,myusername:mypassword,Username and optional schema-specific information about how to gain authorization to access the server (per RFC 2396).
+8.7.0-dev,true,url,url.username,keyword,extended,,myusername,Username of the request.
 8.7.0-dev,true,user,user.changes.domain,keyword,extended,,,Name of the directory the user is a member of.
 8.7.0-dev,true,user,user.changes.email,keyword,extended,,,User email address.
 8.7.0-dev,true,user,user.changes.full_name,keyword,extended,,Albert Einstein,"User's full name, if available."
