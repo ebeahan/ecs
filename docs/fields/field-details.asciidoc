@@ -12328,6 +12328,22 @@ example: `co.uk`
 // ===============================================================
 
 |
+[[field-url-user-info]]
+<<field-url-user-info, url.user_info>>
+
+a| Username and optional schema-specific information about how to gain authorization to access the server (per RFC 2396).
+
+type: keyword
+
+
+
+
+
+| extended
+
+// ===============================================================
+
+|
 [[field-url-username]]
 <<field-url-username, url.username>>
 

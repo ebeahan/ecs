@@ -11054,6 +11054,13 @@
         the last label will not work well for effective TLDs such as "co.uk".'
       example: co.uk
       default_field: false
+    - name: enrichments.indicator.url.user_info
+      level: extended
+      type: keyword
+      ignore_above: 1024
+      description: Username and optional schema-specific information about how to
+        gain authorization to access the server (per RFC 2396).
+      default_field: false
     - name: enrichments.indicator.url.username
       level: extended
       type: keyword
@@ -12644,6 +12651,13 @@
         the last label will not work well for effective TLDs such as "co.uk".'
       example: co.uk
       default_field: false
+    - name: indicator.url.user_info
+      level: extended
+      type: keyword
+      ignore_above: 1024
+      description: Username and optional schema-specific information about how to
+        gain authorization to access the server (per RFC 2396).
+      default_field: false
     - name: indicator.url.username
       level: extended
       type: keyword
@@ -13710,6 +13724,13 @@
         list (http://publicsuffix.org). Trying to approximate this by simply taking
         the last label will not work well for effective TLDs such as "co.uk".'
       example: co.uk
+    - name: user_info
+      level: extended
+      type: keyword
+      ignore_above: 1024
+      description: Username and optional schema-specific information about how to
+        gain authorization to access the server (per RFC 2396).
+      default_field: false
     - name: username
       level: extended
       type: keyword

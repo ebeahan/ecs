@@ -5833,6 +5833,10 @@
                         "ignore_above": 1024,
                         "type": "keyword"
                       },
+                      "user_info": {
+                        "ignore_above": 1024,
+                        "type": "keyword"
+                      },
                       "username": {
                         "ignore_above": 1024,
                         "type": "keyword"
@@ -6746,6 +6750,10 @@
                     "ignore_above": 1024,
                     "type": "keyword"
                   },
+                  "user_info": {
+                    "ignore_above": 1024,
+                    "type": "keyword"
+                  },
                   "username": {
                     "ignore_above": 1024,
                     "type": "keyword"
@@ -7383,6 +7391,10 @@
             "type": "keyword"
           },
           "top_level_domain": {
+            "ignore_above": 1024,
+            "type": "keyword"
+          },
+          "user_info": {
             "ignore_above": 1024,
             "type": "keyword"
           },

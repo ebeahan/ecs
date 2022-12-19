@@ -18996,6 +18996,19 @@ threat:
       original_fieldset: url
       short: The effective top level domain (com, org, net, co.uk).
       type: keyword
+    threat.enrichments.indicator.url.user_info:
+      dashed_name: threat-enrichments-indicator-url-user-info
+      description: Username and optional schema-specific information about how to
+        gain authorization to access the server (per RFC 2396).
+      flat_name: threat.enrichments.indicator.url.user_info
+      ignore_above: 1024
+      level: extended
+      name: user_info
+      normalize: []
+      original_fieldset: url
+      short: Username and optional schema-specific information about how to gain authorization
+        to access the server (per RFC 2396).
+      type: keyword
     threat.enrichments.indicator.url.username:
       dashed_name: threat-enrichments-indicator-url-username
       description: Username of the request.
@@ -21687,6 +21700,19 @@ threat:
       original_fieldset: url
       short: The effective top level domain (com, org, net, co.uk).
       type: keyword
+    threat.indicator.url.user_info:
+      dashed_name: threat-indicator-url-user-info
+      description: Username and optional schema-specific information about how to
+        gain authorization to access the server (per RFC 2396).
+      flat_name: threat.indicator.url.user_info
+      ignore_above: 1024
+      level: extended
+      name: user_info
+      normalize: []
+      original_fieldset: url
+      short: Username and optional schema-specific information about how to gain authorization
+        to access the server (per RFC 2396).
+      type: keyword
     threat.indicator.url.username:
       dashed_name: threat-indicator-url-username
       description: Username of the request.
@@ -23546,6 +23572,18 @@ url:
       name: top_level_domain
       normalize: []
       short: The effective top level domain (com, org, net, co.uk).
+      type: keyword
+    url.user_info:
+      dashed_name: url-user-info
+      description: Username and optional schema-specific information about how to
+        gain authorization to access the server (per RFC 2396).
+      flat_name: url.user_info
+      ignore_above: 1024
+      level: extended
+      name: user_info
+      normalize: []
+      short: Username and optional schema-specific information about how to gain authorization
+        to access the server (per RFC 2396).
       type: keyword
     url.username:
       dashed_name: url-username

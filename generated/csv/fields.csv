@@ -1292,6 +1292,7 @@ ECS_Version,Indexed,Field_Set,Field,Type,Level,Normalization,Example,Description
 8.7.0-dev,true,threat,threat.enrichments.indicator.url.scheme,keyword,extended,,https,Scheme of the url.
 8.7.0-dev,true,threat,threat.enrichments.indicator.url.subdomain,keyword,extended,,east,The subdomain of the domain.
 8.7.0-dev,true,threat,threat.enrichments.indicator.url.top_level_domain,keyword,extended,,co.uk,"The effective top level domain (com, org, net, co.uk)."
+8.7.0-dev,true,threat,threat.enrichments.indicator.url.user_info,keyword,extended,,,Username and optional schema-specific information about how to gain authorization to access the server (per RFC 2396).
 8.7.0-dev,true,threat,threat.enrichments.indicator.url.username,keyword,extended,,,Username of the request.
 8.7.0-dev,true,threat,threat.enrichments.indicator.x509.alternative_names,keyword,extended,array,*.elastic.co,List of subject alternative names (SAN).
 8.7.0-dev,true,threat,threat.enrichments.indicator.x509.issuer.common_name,keyword,extended,array,Example SHA2 High Assurance Server CA,List of common name (CN) of issuing certificate authority.
@@ -1507,6 +1508,7 @@ ECS_Version,Indexed,Field_Set,Field,Type,Level,Normalization,Example,Description
 8.7.0-dev,true,threat,threat.indicator.url.scheme,keyword,extended,,https,Scheme of the url.
 8.7.0-dev,true,threat,threat.indicator.url.subdomain,keyword,extended,,east,The subdomain of the domain.
 8.7.0-dev,true,threat,threat.indicator.url.top_level_domain,keyword,extended,,co.uk,"The effective top level domain (com, org, net, co.uk)."
+8.7.0-dev,true,threat,threat.indicator.url.user_info,keyword,extended,,,Username and optional schema-specific information about how to gain authorization to access the server (per RFC 2396).
 8.7.0-dev,true,threat,threat.indicator.url.username,keyword,extended,,,Username of the request.
 8.7.0-dev,true,threat,threat.indicator.x509.alternative_names,keyword,extended,array,*.elastic.co,List of subject alternative names (SAN).
 8.7.0-dev,true,threat,threat.indicator.x509.issuer.common_name,keyword,extended,array,Example SHA2 High Assurance Server CA,List of common name (CN) of issuing certificate authority.
@@ -1644,6 +1646,7 @@ ECS_Version,Indexed,Field_Set,Field,Type,Level,Normalization,Example,Description
 8.7.0-dev,true,url,url.scheme,keyword,extended,,https,Scheme of the url.
 8.7.0-dev,true,url,url.subdomain,keyword,extended,,east,The subdomain of the domain.
 8.7.0-dev,true,url,url.top_level_domain,keyword,extended,,co.uk,"The effective top level domain (com, org, net, co.uk)."
+8.7.0-dev,true,url,url.user_info,keyword,extended,,,Username and optional schema-specific information about how to gain authorization to access the server (per RFC 2396).
 8.7.0-dev,true,url,url.username,keyword,extended,,,Username of the request.
 8.7.0-dev,true,user,user.changes.domain,keyword,extended,,,Name of the directory the user is a member of.
 8.7.0-dev,true,user,user.changes.email,keyword,extended,,,User email address.
