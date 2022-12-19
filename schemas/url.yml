@@ -192,3 +192,10 @@
       type: keyword
       description: >
         Password of the request.
+
+    - name: user_info
+      level: extended
+      type: keyword
+      description: >
+        Username and optional schema-specific information about how to gain
+        authorization to access the server (per RFC 2396).
